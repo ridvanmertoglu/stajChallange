@@ -38,9 +38,9 @@ final class CoinViewModel: StatefulViewModel<CoinViewModelState.Change> {
                 self?.emit(change: .failed(message: "Data Boş"))
                 return
             }
-            print(data.prettyPrintedJSONString!)
+            //print(data.prettyPrintedJSONString!)
             self?.coins = Response.decodeObject(data: data)
-            print(self?.coins?.data?.coins?.count ?? 111)
+            //print(self?.coins?.data?.coins?.count ?? 111)
             self?.emit(change: .succeeded)
         }
     }

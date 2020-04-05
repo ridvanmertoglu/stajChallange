@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,9 +23,64 @@
 		8C22C31E24390439009C6D3E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C31D24390439009C6D3E /* FirstViewController.swift */; };
 		8C22C320243915D9009C6D3E /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C31F243915D9009C6D3E /* BaseVC.swift */; };
 		8C22C32224393286009C6D3E /* SpinnerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C32124393286009C6D3E /* SpinnerExtension.swift */; };
+		8C22C35A243A015F009C6D3E /* Lisk.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C328243A014F009C6D3E /* Lisk.svg */; };
+		8C22C35B243A015F009C6D3E /* Crypto.com Chain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C329243A014F009C6D3E /* Crypto.com Chain.svg */; };
+		8C22C35C243A015F009C6D3E /* TrueUSD.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C32A243A014F009C6D3E /* TrueUSD.svg */; };
+		8C22C35D243A015F009C6D3E /* Algorand.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C32B243A014F009C6D3E /* Algorand.svg */; };
+		8C22C35E243A015F009C6D3E /* ZB Token.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C32C243A014F009C6D3E /* ZB Token.svg */; };
+		8C22C35F243A015F009C6D3E /* EOS.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C32D243A0150009C6D3E /* EOS.svg */; };
+		8C22C360243A015F009C6D3E /* XRP.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C32E243A0150009C6D3E /* XRP.svg */; };
+		8C22C361243A015F009C6D3E /* Litecoin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C32F243A0150009C6D3E /* Litecoin.svg */; };
+		8C22C362243A015F009C6D3E /* Bitcoin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C330243A0150009C6D3E /* Bitcoin.svg */; };
+		8C22C363243A015F009C6D3E /* Gas.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C331243A0151009C6D3E /* Gas.svg */; };
+		8C22C364243A015F009C6D3E /* OKB.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C332243A0151009C6D3E /* OKB.svg */; };
+		8C22C365243A015F009C6D3E /* Ethereum Classic.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C333243A0151009C6D3E /* Ethereum Classic.svg */; };
+		8C22C366243A015F009C6D3E /* Ethereum.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C334243A0152009C6D3E /* Ethereum.svg */; };
+		8C22C368243A015F009C6D3E /* Tezos.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C336243A0153009C6D3E /* Tezos.svg */; };
+		8C22C369243A015F009C6D3E /* Cosmos.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C337243A0153009C6D3E /* Cosmos.svg */; };
+		8C22C36A243A015F009C6D3E /* Insight Chain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C338243A0153009C6D3E /* Insight Chain.svg */; };
+		8C22C36B243A015F009C6D3E /* Huobi Token.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C339243A0154009C6D3E /* Huobi Token.svg */; };
+		8C22C36C243A015F009C6D3E /* Bitcoin Gold.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C33A243A0154009C6D3E /* Bitcoin Gold.svg */; };
+		8C22C36D243A015F009C6D3E /* ICON.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C33B243A0154009C6D3E /* ICON.svg */; };
+		8C22C36E243A015F009C6D3E /* Orchid Protocol.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C33C243A0155009C6D3E /* Orchid Protocol.svg */; };
+		8C22C36F243A015F009C6D3E /* Dogecoin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C33D243A0155009C6D3E /* Dogecoin.svg */; };
+		8C22C370243A015F009C6D3E /* NEM.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C33E243A0155009C6D3E /* NEM.svg */; };
+		8C22C371243A015F009C6D3E /* Bitcoin SV.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C33F243A0156009C6D3E /* Bitcoin SV.svg */; };
+		8C22C372243A015F009C6D3E /* FTX Token.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C340243A0156009C6D3E /* FTX Token.svg */; };
+		8C22C373243A015F009C6D3E /* Cardano.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C341243A0156009C6D3E /* Cardano.svg */; };
+		8C22C374243A015F009C6D3E /* Maker.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C342243A0157009C6D3E /* Maker.svg */; };
+		8C22C375243A015F009C6D3E /* Stellar.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C343243A0157009C6D3E /* Stellar.svg */; };
+		8C22C376243A015F009C6D3E /* Hedera HashGraph.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C344243A0158009C6D3E /* Hedera HashGraph.svg */; };
+		8C22C377243A015F009C6D3E /* Chainlink.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C345243A0158009C6D3E /* Chainlink.svg */; };
+		8C22C378243A015F009C6D3E /* USDC.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C346243A0158009C6D3E /* USDC.svg */; };
+		8C22C379243A015F009C6D3E /* Zcash.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C347243A0159009C6D3E /* Zcash.svg */; };
+		8C22C37A243A015F009C6D3E /* Binance Coin.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C348243A0159009C6D3E /* Binance Coin.svg */; };
+		8C22C37B243A015F009C6D3E /* Ontology.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C349243A0159009C6D3E /* Ontology.svg */; };
+		8C22C37C243A015F009C6D3E /* Monero.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C34A243A015A009C6D3E /* Monero.svg */; };
+		8C22C37D243A015F009C6D3E /* IOTA.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C34B243A015A009C6D3E /* IOTA.svg */; };
+		8C22C37E243A015F009C6D3E /* Augur.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C34C243A015A009C6D3E /* Augur.svg */; };
+		8C22C37F243A015F009C6D3E /* Bitcoin Cash.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C34D243A015B009C6D3E /* Bitcoin Cash.svg */; };
+		8C22C380243A015F009C6D3E /* Basic Attention Token.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C34E243A015B009C6D3E /* Basic Attention Token.svg */; };
+		8C22C381243A015F009C6D3E /* TRON.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C34F243A015B009C6D3E /* TRON.svg */; };
+		8C22C382243A015F009C6D3E /* Cryptonex.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C350243A015C009C6D3E /* Cryptonex.svg */; };
+		8C22C383243A015F009C6D3E /* Decred.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C351243A015C009C6D3E /* Decred.svg */; };
+		8C22C384243A015F009C6D3E /* LEO.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C352243A015C009C6D3E /* LEO.svg */; };
+		8C22C385243A015F009C6D3E /* Dash.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C353243A015D009C6D3E /* Dash.svg */; };
+		8C22C386243A015F009C6D3E /* NEO.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C354243A015D009C6D3E /* NEO.svg */; };
+		8C22C387243A015F009C6D3E /* QTUM.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C355243A015E009C6D3E /* QTUM.svg */; };
+		8C22C388243A015F009C6D3E /* VeChain.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C356243A015E009C6D3E /* VeChain.svg */; };
+		8C22C389243A015F009C6D3E /* Paxos Standard.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C357243A015E009C6D3E /* Paxos Standard.svg */; };
+		8C22C38A243A015F009C6D3E /* Numeraire.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C358243A015F009C6D3E /* Numeraire.svg */; };
+		8C22C38B243A015F009C6D3E /* 0x.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C359243A015F009C6D3E /* 0x.svg */; };
+		8C22C38D243A0209009C6D3E /* Tether.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C38C243A0208009C6D3E /* Tether.svg */; };
+		8C22C390243A155E009C6D3E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C38F243A155E009C6D3E /* DetailViewController.swift */; };
+		8C22C392243A1F45009C6D3E /* EditStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C391243A1F45009C6D3E /* EditStringExtension.swift */; };
+		8C22C394243A2B9F009C6D3E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C393243A2B9F009C6D3E /* UIImageExtension.swift */; };
+		C78A9C61BEFA8DFA42EA479D /* Pods_StajChallange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54CC9A46E737A53E96CDBF6 /* Pods_StajChallange.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2238A0B23D50C8DD6D514DC3 /* Pods-StajChallange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajChallange.debug.xcconfig"; path = "Target Support Files/Pods-StajChallange/Pods-StajChallange.debug.xcconfig"; sourceTree = "<group>"; };
 		8C22C2EC2438FC42009C6D3E /* StajChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StajChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C22C2EF2438FC42009C6D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C22C2F12438FC42009C6D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +99,61 @@
 		8C22C31D24390439009C6D3E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8C22C31F243915D9009C6D3E /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		8C22C32124393286009C6D3E /* SpinnerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerExtension.swift; sourceTree = "<group>"; };
+		8C22C328243A014F009C6D3E /* Lisk.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lisk.svg; sourceTree = "<group>"; };
+		8C22C329243A014F009C6D3E /* Crypto.com Chain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Crypto.com Chain.svg"; sourceTree = "<group>"; };
+		8C22C32A243A014F009C6D3E /* TrueUSD.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TrueUSD.svg; sourceTree = "<group>"; };
+		8C22C32B243A014F009C6D3E /* Algorand.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Algorand.svg; sourceTree = "<group>"; };
+		8C22C32C243A014F009C6D3E /* ZB Token.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ZB Token.svg"; sourceTree = "<group>"; };
+		8C22C32D243A0150009C6D3E /* EOS.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EOS.svg; sourceTree = "<group>"; };
+		8C22C32E243A0150009C6D3E /* XRP.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XRP.svg; sourceTree = "<group>"; };
+		8C22C32F243A0150009C6D3E /* Litecoin.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Litecoin.svg; sourceTree = "<group>"; };
+		8C22C330243A0150009C6D3E /* Bitcoin.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bitcoin.svg; sourceTree = "<group>"; };
+		8C22C331243A0151009C6D3E /* Gas.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gas.svg; sourceTree = "<group>"; };
+		8C22C332243A0151009C6D3E /* OKB.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OKB.svg; sourceTree = "<group>"; };
+		8C22C333243A0151009C6D3E /* Ethereum Classic.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Ethereum Classic.svg"; sourceTree = "<group>"; };
+		8C22C334243A0152009C6D3E /* Ethereum.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ethereum.svg; sourceTree = "<group>"; };
+		8C22C336243A0153009C6D3E /* Tezos.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tezos.svg; sourceTree = "<group>"; };
+		8C22C337243A0153009C6D3E /* Cosmos.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cosmos.svg; sourceTree = "<group>"; };
+		8C22C338243A0153009C6D3E /* Insight Chain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Insight Chain.svg"; sourceTree = "<group>"; };
+		8C22C339243A0154009C6D3E /* Huobi Token.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Huobi Token.svg"; sourceTree = "<group>"; };
+		8C22C33A243A0154009C6D3E /* Bitcoin Gold.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bitcoin Gold.svg"; sourceTree = "<group>"; };
+		8C22C33B243A0154009C6D3E /* ICON.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ICON.svg; sourceTree = "<group>"; };
+		8C22C33C243A0155009C6D3E /* Orchid Protocol.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Orchid Protocol.svg"; sourceTree = "<group>"; };
+		8C22C33D243A0155009C6D3E /* Dogecoin.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dogecoin.svg; sourceTree = "<group>"; };
+		8C22C33E243A0155009C6D3E /* NEM.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEM.svg; sourceTree = "<group>"; };
+		8C22C33F243A0156009C6D3E /* Bitcoin SV.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bitcoin SV.svg"; sourceTree = "<group>"; };
+		8C22C340243A0156009C6D3E /* FTX Token.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FTX Token.svg"; sourceTree = "<group>"; };
+		8C22C341243A0156009C6D3E /* Cardano.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cardano.svg; sourceTree = "<group>"; };
+		8C22C342243A0157009C6D3E /* Maker.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Maker.svg; sourceTree = "<group>"; };
+		8C22C343243A0157009C6D3E /* Stellar.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stellar.svg; sourceTree = "<group>"; };
+		8C22C344243A0158009C6D3E /* Hedera HashGraph.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Hedera HashGraph.svg"; sourceTree = "<group>"; };
+		8C22C345243A0158009C6D3E /* Chainlink.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Chainlink.svg; sourceTree = "<group>"; };
+		8C22C346243A0158009C6D3E /* USDC.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = USDC.svg; sourceTree = "<group>"; };
+		8C22C347243A0159009C6D3E /* Zcash.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Zcash.svg; sourceTree = "<group>"; };
+		8C22C348243A0159009C6D3E /* Binance Coin.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Binance Coin.svg"; sourceTree = "<group>"; };
+		8C22C349243A0159009C6D3E /* Ontology.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ontology.svg; sourceTree = "<group>"; };
+		8C22C34A243A015A009C6D3E /* Monero.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Monero.svg; sourceTree = "<group>"; };
+		8C22C34B243A015A009C6D3E /* IOTA.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IOTA.svg; sourceTree = "<group>"; };
+		8C22C34C243A015A009C6D3E /* Augur.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Augur.svg; sourceTree = "<group>"; };
+		8C22C34D243A015B009C6D3E /* Bitcoin Cash.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Bitcoin Cash.svg"; sourceTree = "<group>"; };
+		8C22C34E243A015B009C6D3E /* Basic Attention Token.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Basic Attention Token.svg"; sourceTree = "<group>"; };
+		8C22C34F243A015B009C6D3E /* TRON.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TRON.svg; sourceTree = "<group>"; };
+		8C22C350243A015C009C6D3E /* Cryptonex.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cryptonex.svg; sourceTree = "<group>"; };
+		8C22C351243A015C009C6D3E /* Decred.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Decred.svg; sourceTree = "<group>"; };
+		8C22C352243A015C009C6D3E /* LEO.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LEO.svg; sourceTree = "<group>"; };
+		8C22C353243A015D009C6D3E /* Dash.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dash.svg; sourceTree = "<group>"; };
+		8C22C354243A015D009C6D3E /* NEO.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEO.svg; sourceTree = "<group>"; };
+		8C22C355243A015E009C6D3E /* QTUM.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QTUM.svg; sourceTree = "<group>"; };
+		8C22C356243A015E009C6D3E /* VeChain.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VeChain.svg; sourceTree = "<group>"; };
+		8C22C357243A015E009C6D3E /* Paxos Standard.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Paxos Standard.svg"; sourceTree = "<group>"; };
+		8C22C358243A015F009C6D3E /* Numeraire.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Numeraire.svg; sourceTree = "<group>"; };
+		8C22C359243A015F009C6D3E /* 0x.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0x.svg; sourceTree = "<group>"; };
+		8C22C38C243A0208009C6D3E /* Tether.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Tether.svg; sourceTree = "<group>"; };
+		8C22C38F243A155E009C6D3E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8C22C391243A1F45009C6D3E /* EditStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStringExtension.swift; sourceTree = "<group>"; };
+		8C22C393243A2B9F009C6D3E /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		B12DA508B8213994CC0C0C9E /* Pods-StajChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajChallange.release.xcconfig"; path = "Target Support Files/Pods-StajChallange/Pods-StajChallange.release.xcconfig"; sourceTree = "<group>"; };
+		E54CC9A46E737A53E96CDBF6 /* Pods_StajChallange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StajChallange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +161,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78A9C61BEFA8DFA42EA479D /* Pods_StajChallange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31A767661F1A50E33E5662EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E54CC9A46E737A53E96CDBF6 /* Pods_StajChallange.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		324E4215BEC064E477BF122F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2238A0B23D50C8DD6D514DC3 /* Pods-StajChallange.debug.xcconfig */,
+				B12DA508B8213994CC0C0C9E /* Pods-StajChallange.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8C22C2E32438FC42009C6D3E = {
 			isa = PBXGroup;
 			children = (
 				8C22C2EE2438FC42009C6D3E /* StajChallange */,
 				8C22C2ED2438FC42009C6D3E /* Products */,
+				324E4215BEC064E477BF122F /* Pods */,
+				31A767661F1A50E33E5662EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +206,7 @@
 		8C22C2EE2438FC42009C6D3E /* StajChallange */ = {
 			isa = PBXGroup;
 			children = (
+				8C22C38E243A0814009C6D3E /* Icons */,
 				8C22C30C2438FCFB009C6D3E /* ViewModels */,
 				8C22C30B2438FCEC009C6D3E /* ViewControllers */,
 				8C22C30A2438FCD0009C6D3E /* Resources */,
@@ -97,6 +228,8 @@
 				8C22C3122438FE19009C6D3E /* DecodableExtension.swift */,
 				8C22C31B24390295009C6D3E /* UIColorExtension.swift */,
 				8C22C32124393286009C6D3E /* SpinnerExtension.swift */,
+				8C22C391243A1F45009C6D3E /* EditStringExtension.swift */,
+				8C22C393243A2B9F009C6D3E /* UIImageExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -141,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				8C22C31D24390439009C6D3E /* FirstViewController.swift */,
+				8C22C38F243A155E009C6D3E /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -153,6 +287,63 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		8C22C38E243A0814009C6D3E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				8C22C349243A0159009C6D3E /* Ontology.svg */,
+				8C22C33C243A0155009C6D3E /* Orchid Protocol.svg */,
+				8C22C357243A015E009C6D3E /* Paxos Standard.svg */,
+				8C22C330243A0150009C6D3E /* Bitcoin.svg */,
+				8C22C355243A015E009C6D3E /* QTUM.svg */,
+				8C22C343243A0157009C6D3E /* Stellar.svg */,
+				8C22C359243A015F009C6D3E /* 0x.svg */,
+				8C22C32B243A014F009C6D3E /* Algorand.svg */,
+				8C22C34C243A015A009C6D3E /* Augur.svg */,
+				8C22C34E243A015B009C6D3E /* Basic Attention Token.svg */,
+				8C22C348243A0159009C6D3E /* Binance Coin.svg */,
+				8C22C34D243A015B009C6D3E /* Bitcoin Cash.svg */,
+				8C22C33A243A0154009C6D3E /* Bitcoin Gold.svg */,
+				8C22C33F243A0156009C6D3E /* Bitcoin SV.svg */,
+				8C22C38C243A0208009C6D3E /* Tether.svg */,
+				8C22C341243A0156009C6D3E /* Cardano.svg */,
+				8C22C345243A0158009C6D3E /* Chainlink.svg */,
+				8C22C337243A0153009C6D3E /* Cosmos.svg */,
+				8C22C329243A014F009C6D3E /* Crypto.com Chain.svg */,
+				8C22C350243A015C009C6D3E /* Cryptonex.svg */,
+				8C22C353243A015D009C6D3E /* Dash.svg */,
+				8C22C351243A015C009C6D3E /* Decred.svg */,
+				8C22C33D243A0155009C6D3E /* Dogecoin.svg */,
+				8C22C32D243A0150009C6D3E /* EOS.svg */,
+				8C22C333243A0151009C6D3E /* Ethereum Classic.svg */,
+				8C22C334243A0152009C6D3E /* Ethereum.svg */,
+				8C22C340243A0156009C6D3E /* FTX Token.svg */,
+				8C22C331243A0151009C6D3E /* Gas.svg */,
+				8C22C344243A0158009C6D3E /* Hedera HashGraph.svg */,
+				8C22C339243A0154009C6D3E /* Huobi Token.svg */,
+				8C22C33B243A0154009C6D3E /* ICON.svg */,
+				8C22C338243A0153009C6D3E /* Insight Chain.svg */,
+				8C22C34B243A015A009C6D3E /* IOTA.svg */,
+				8C22C352243A015C009C6D3E /* LEO.svg */,
+				8C22C328243A014F009C6D3E /* Lisk.svg */,
+				8C22C32F243A0150009C6D3E /* Litecoin.svg */,
+				8C22C342243A0157009C6D3E /* Maker.svg */,
+				8C22C34A243A015A009C6D3E /* Monero.svg */,
+				8C22C33E243A0155009C6D3E /* NEM.svg */,
+				8C22C354243A015D009C6D3E /* NEO.svg */,
+				8C22C358243A015F009C6D3E /* Numeraire.svg */,
+				8C22C332243A0151009C6D3E /* OKB.svg */,
+				8C22C336243A0153009C6D3E /* Tezos.svg */,
+				8C22C34F243A015B009C6D3E /* TRON.svg */,
+				8C22C32A243A014F009C6D3E /* TrueUSD.svg */,
+				8C22C346243A0158009C6D3E /* USDC.svg */,
+				8C22C356243A015E009C6D3E /* VeChain.svg */,
+				8C22C32E243A0150009C6D3E /* XRP.svg */,
+				8C22C32C243A014F009C6D3E /* ZB Token.svg */,
+				8C22C347243A0159009C6D3E /* Zcash.svg */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C22C3032438FC44009C6D3E /* Build configuration list for PBXNativeTarget "StajChallange" */;
 			buildPhases = (
+				F3C9E4EBFE855210C7D19FF1 /* [CP] Check Pods Manifest.lock */,
 				8C22C2E82438FC42009C6D3E /* Sources */,
 				8C22C2E92438FC42009C6D3E /* Frameworks */,
 				8C22C2EA2438FC42009C6D3E /* Resources */,
+				EA18C80E6A71584FA54D42CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,13 +404,105 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C22C375243A015F009C6D3E /* Stellar.svg in Resources */,
 				8C22C2FF2438FC44009C6D3E /* LaunchScreen.storyboard in Resources */,
+				8C22C361243A015F009C6D3E /* Litecoin.svg in Resources */,
+				8C22C37D243A015F009C6D3E /* IOTA.svg in Resources */,
+				8C22C389243A015F009C6D3E /* Paxos Standard.svg in Resources */,
+				8C22C36A243A015F009C6D3E /* Insight Chain.svg in Resources */,
+				8C22C38B243A015F009C6D3E /* 0x.svg in Resources */,
+				8C22C373243A015F009C6D3E /* Cardano.svg in Resources */,
+				8C22C37A243A015F009C6D3E /* Binance Coin.svg in Resources */,
+				8C22C384243A015F009C6D3E /* LEO.svg in Resources */,
+				8C22C38D243A0209009C6D3E /* Tether.svg in Resources */,
+				8C22C365243A015F009C6D3E /* Ethereum Classic.svg in Resources */,
+				8C22C371243A015F009C6D3E /* Bitcoin SV.svg in Resources */,
+				8C22C362243A015F009C6D3E /* Bitcoin.svg in Resources */,
+				8C22C376243A015F009C6D3E /* Hedera HashGraph.svg in Resources */,
+				8C22C387243A015F009C6D3E /* QTUM.svg in Resources */,
+				8C22C36C243A015F009C6D3E /* Bitcoin Gold.svg in Resources */,
+				8C22C35D243A015F009C6D3E /* Algorand.svg in Resources */,
 				8C22C2FC2438FC44009C6D3E /* Assets.xcassets in Resources */,
+				8C22C36E243A015F009C6D3E /* Orchid Protocol.svg in Resources */,
+				8C22C37B243A015F009C6D3E /* Ontology.svg in Resources */,
+				8C22C366243A015F009C6D3E /* Ethereum.svg in Resources */,
+				8C22C388243A015F009C6D3E /* VeChain.svg in Resources */,
+				8C22C369243A015F009C6D3E /* Cosmos.svg in Resources */,
+				8C22C37E243A015F009C6D3E /* Augur.svg in Resources */,
+				8C22C364243A015F009C6D3E /* OKB.svg in Resources */,
+				8C22C381243A015F009C6D3E /* TRON.svg in Resources */,
+				8C22C380243A015F009C6D3E /* Basic Attention Token.svg in Resources */,
+				8C22C35E243A015F009C6D3E /* ZB Token.svg in Resources */,
+				8C22C377243A015F009C6D3E /* Chainlink.svg in Resources */,
+				8C22C36F243A015F009C6D3E /* Dogecoin.svg in Resources */,
+				8C22C368243A015F009C6D3E /* Tezos.svg in Resources */,
+				8C22C35A243A015F009C6D3E /* Lisk.svg in Resources */,
+				8C22C37C243A015F009C6D3E /* Monero.svg in Resources */,
+				8C22C372243A015F009C6D3E /* FTX Token.svg in Resources */,
+				8C22C37F243A015F009C6D3E /* Bitcoin Cash.svg in Resources */,
+				8C22C382243A015F009C6D3E /* Cryptonex.svg in Resources */,
+				8C22C36B243A015F009C6D3E /* Huobi Token.svg in Resources */,
+				8C22C363243A015F009C6D3E /* Gas.svg in Resources */,
+				8C22C35F243A015F009C6D3E /* EOS.svg in Resources */,
 				8C22C2F72438FC42009C6D3E /* Main.storyboard in Resources */,
+				8C22C385243A015F009C6D3E /* Dash.svg in Resources */,
+				8C22C378243A015F009C6D3E /* USDC.svg in Resources */,
+				8C22C35C243A015F009C6D3E /* TrueUSD.svg in Resources */,
+				8C22C360243A015F009C6D3E /* XRP.svg in Resources */,
+				8C22C370243A015F009C6D3E /* NEM.svg in Resources */,
+				8C22C379243A015F009C6D3E /* Zcash.svg in Resources */,
+				8C22C38A243A015F009C6D3E /* Numeraire.svg in Resources */,
+				8C22C386243A015F009C6D3E /* NEO.svg in Resources */,
+				8C22C35B243A015F009C6D3E /* Crypto.com Chain.svg in Resources */,
+				8C22C374243A015F009C6D3E /* Maker.svg in Resources */,
+				8C22C36D243A015F009C6D3E /* ICON.svg in Resources */,
+				8C22C383243A015F009C6D3E /* Decred.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA18C80E6A71584FA54D42CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StajChallange/Pods-StajChallange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StajChallange/Pods-StajChallange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StajChallange/Pods-StajChallange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3C9E4EBFE855210C7D19FF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StajChallange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8C22C2E82438FC42009C6D3E /* Sources */ = {
@@ -233,10 +518,13 @@
 				8C22C3152438FE3D009C6D3E /* NetworkManager.swift in Sources */,
 				8C22C3112438FDDC009C6D3E /* URLRequestExtension.swift in Sources */,
 				8C22C320243915D9009C6D3E /* BaseVC.swift in Sources */,
+				8C22C392243A1F45009C6D3E /* EditStringExtension.swift in Sources */,
 				8C22C31C24390295009C6D3E /* UIColorExtension.swift in Sources */,
 				8C22C2F22438FC42009C6D3E /* SceneDelegate.swift in Sources */,
 				8C22C2FA2438FC42009C6D3E /* StajChallange.xcdatamodeld in Sources */,
 				8C22C31E24390439009C6D3E /* FirstViewController.swift in Sources */,
+				8C22C390243A155E009C6D3E /* DetailViewController.swift in Sources */,
+				8C22C394243A2B9F009C6D3E /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +666,7 @@
 		};
 		8C22C3042438FC44009C6D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2238A0B23D50C8DD6D514DC3 /* Pods-StajChallange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +685,7 @@
 		};
 		8C22C3052438FC44009C6D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B12DA508B8213994CC0C0C9E /* Pods-StajChallange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
