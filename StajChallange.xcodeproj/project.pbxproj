@@ -76,6 +76,9 @@
 		8C22C390243A155E009C6D3E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C38F243A155E009C6D3E /* DetailViewController.swift */; };
 		8C22C392243A1F45009C6D3E /* EditStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C391243A1F45009C6D3E /* EditStringExtension.swift */; };
 		8C22C394243A2B9F009C6D3E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C393243A2B9F009C6D3E /* UIImageExtension.swift */; };
+		8C22C3C7243A5E25009C6D3E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C22C3C5243A5E25009C6D3E /* CustomTableViewCell.swift */; };
+		8C22C3C8243A5E25009C6D3E /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C3C6243A5E25009C6D3E /* CustomTableViewCell.xib */; };
+		8C22C3CA243A62A9009C6D3E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C22C3C9243A62A9009C6D3E /* icon.png */; };
 		C78A9C61BEFA8DFA42EA479D /* Pods_StajChallange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54CC9A46E737A53E96CDBF6 /* Pods_StajChallange.framework */; };
 /* End PBXBuildFile section */
 
@@ -152,6 +155,9 @@
 		8C22C38F243A155E009C6D3E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8C22C391243A1F45009C6D3E /* EditStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStringExtension.swift; sourceTree = "<group>"; };
 		8C22C393243A2B9F009C6D3E /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		8C22C3C5243A5E25009C6D3E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		8C22C3C6243A5E25009C6D3E /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		8C22C3C9243A62A9009C6D3E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		B12DA508B8213994CC0C0C9E /* Pods-StajChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StajChallange.release.xcconfig"; path = "Target Support Files/Pods-StajChallange/Pods-StajChallange.release.xcconfig"; sourceTree = "<group>"; };
 		E54CC9A46E737A53E96CDBF6 /* Pods_StajChallange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StajChallange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -206,6 +212,7 @@
 		8C22C2EE2438FC42009C6D3E /* StajChallange */ = {
 			isa = PBXGroup;
 			children = (
+				8C22C3C4243A5E0C009C6D3E /* Cells */,
 				8C22C38E243A0814009C6D3E /* Icons */,
 				8C22C30C2438FCFB009C6D3E /* ViewModels */,
 				8C22C30B2438FCEC009C6D3E /* ViewControllers */,
@@ -215,6 +222,7 @@
 				8C22C3072438FC9A009C6D3E /* Base */,
 				8C22C3062438FC53009C6D3E /* Extensions */,
 				8C22C2EF2438FC42009C6D3E /* AppDelegate.swift */,
+				8C22C3C9243A62A9009C6D3E /* icon.png */,
 				8C22C2F12438FC42009C6D3E /* SceneDelegate.swift */,
 				8C22C3002438FC44009C6D3E /* Info.plist */,
 			);
@@ -344,6 +352,15 @@
 			path = Icons;
 			sourceTree = "<group>";
 		};
+		8C22C3C4243A5E0C009C6D3E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8C22C3C5243A5E25009C6D3E /* CustomTableViewCell.swift */,
+				8C22C3C6243A5E25009C6D3E /* CustomTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -410,6 +427,7 @@
 				8C22C37D243A015F009C6D3E /* IOTA.svg in Resources */,
 				8C22C389243A015F009C6D3E /* Paxos Standard.svg in Resources */,
 				8C22C36A243A015F009C6D3E /* Insight Chain.svg in Resources */,
+				8C22C3CA243A62A9009C6D3E /* icon.png in Resources */,
 				8C22C38B243A015F009C6D3E /* 0x.svg in Resources */,
 				8C22C373243A015F009C6D3E /* Cardano.svg in Resources */,
 				8C22C37A243A015F009C6D3E /* Binance Coin.svg in Resources */,
@@ -454,6 +472,7 @@
 				8C22C38A243A015F009C6D3E /* Numeraire.svg in Resources */,
 				8C22C386243A015F009C6D3E /* NEO.svg in Resources */,
 				8C22C35B243A015F009C6D3E /* Crypto.com Chain.svg in Resources */,
+				8C22C3C8243A5E25009C6D3E /* CustomTableViewCell.xib in Resources */,
 				8C22C374243A015F009C6D3E /* Maker.svg in Resources */,
 				8C22C36D243A015F009C6D3E /* ICON.svg in Resources */,
 				8C22C383243A015F009C6D3E /* Decred.svg in Resources */,
@@ -518,6 +537,7 @@
 				8C22C3152438FE3D009C6D3E /* NetworkManager.swift in Sources */,
 				8C22C3112438FDDC009C6D3E /* URLRequestExtension.swift in Sources */,
 				8C22C320243915D9009C6D3E /* BaseVC.swift in Sources */,
+				8C22C3C7243A5E25009C6D3E /* CustomTableViewCell.swift in Sources */,
 				8C22C392243A1F45009C6D3E /* EditStringExtension.swift in Sources */,
 				8C22C31C24390295009C6D3E /* UIColorExtension.swift in Sources */,
 				8C22C2F22438FC42009C6D3E /* SceneDelegate.swift in Sources */,

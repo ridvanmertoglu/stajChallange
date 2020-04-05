@@ -15,6 +15,7 @@ extension UIImage {
         //let namSvgImgVyuVar = SVGKImageView(svgkImage: namSvgImgVar)
         
         let namImjVar: UIImage = namSvgImgVar.uiImage
+        
         return namImjVar
     }
 }

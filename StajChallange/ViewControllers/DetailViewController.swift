@@ -12,9 +12,9 @@ import SVGKit
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var descriptionView: UITextView!
     
     var selectedName = ""
     var selectedPrice = ""
@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = selectedSymbol
-        descriptionLabel.text = selectedDescription
+        descriptionView.text = selectedDescription
         imageView.image = UIImage().getSVG(imageName: selectedName)
         nameLabel.text = selectedName
         priceLabel.text = selectedPrice

@@ -28,6 +28,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        self.registerTableViewCells()
         viewModel.fetchCoinResults()
         navigationItem.title = "Coin List"
         viewModel.addChangeHandler { [weak self] (state) -> Void in
@@ -61,7 +62,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return viewModel.coins?.data?.coins?.count ?? 0
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  /*  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.textColor = cell.textLabel?.textColor.hexStringToUIColor(hex: viewModel.coins?.data?.coins?[indexPath.row].color ?? "#00000")
         
@@ -81,6 +82,28 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         
         return cell
+    }*/
+    
+    func tableView(_ tableView: UITableView,
+                   cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell") as? CustomTableViewCell {
+            cell.customCellNameLabel.text = viewModel.coins?.data?.coins?[indexPath.row].symbol ?? ""
+            cell.customCellNameLabel.textColor = cell.textLabel?.textColor.hexStringToUIColor(hex: viewModel.coins?.data?.coins?[indexPath.row].color ?? "#00000")
+            cell.customCellPriceLabel.text = String().editPrice(givenPrice: viewModel.coins?.data?.coins?[indexPath.row].price ?? "")
+            cell.customCellPriceLabel.textColor = cell.textLabel?.textColor.hexStringToUIColor(hex: viewModel.coins?.data?.coins?[indexPath.row].color ?? "#00000")
+            //cell.customCellImage.image = UIImage().getSVG(imageName:viewModel.coins?.data?.coins?[indexPath.row].name ?? "Tether")
+            cell.customCellImage.image = UIImage(named: "icon.png")
+            return cell
+        }
+        
+        return UITableViewCell()
+    }
+    
+    private func registerTableViewCells() {
+        let textFieldCell = UINib(nibName: "CustomTableViewCell",
+                                  bundle: nil)
+        self.tableView.register(textFieldCell,
+                                forCellReuseIdentifier: "CustomTableViewCell")
     }
     
     
