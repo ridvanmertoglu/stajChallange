@@ -9,6 +9,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var historyTableView: UITableView!
     @IBOutlet weak var tableNameLabel: UILabel!
     
+    /*I created these variables to get the datas from the first page.*/
     var selectedName = ""
     var selectedPrice = ""
     var selectedDescription = ""
@@ -30,7 +31,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return selectedCoinHistories.count
     }
-    
+    /*I created this table to show history of coins.*/
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         cell.textLabel?.text = String().editPrice(givenPrice: selectedCoinHistories[indexPath.row])

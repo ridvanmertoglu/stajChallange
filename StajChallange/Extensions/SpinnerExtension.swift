@@ -2,6 +2,7 @@ import UIKit
 
 fileprivate var activityView : UIView?
 
+/*I created this extension to show spinner and close the spinner.*/
 extension UIViewController {
     
     func showSpinner() {

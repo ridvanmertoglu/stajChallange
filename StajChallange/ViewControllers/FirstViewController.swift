@@ -3,8 +3,10 @@ import UIKit
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    /*I created this variable to access the datas from model view in this page.*/
     private lazy var viewModel = CoinViewModel()
     
+    /*I created these variables to transfer datas to the detail page.*/
     var choosenName = ""
     var choosenDescription = ""
     var choosenEditedPrice = ""
@@ -38,7 +40,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         return viewModel.coins?.data?.coins?.count ?? 0
     }
     
-    
+    /*In this function, I assigned the datas that I will give to each cell of the table.*/
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell") as? CustomTableViewCell {
             cell.customCellSymbolLabel.text = viewModel.coins?.data?.coins?[indexPath.row].symbol ?? ""
@@ -56,6 +58,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         self.tableView.register(textFieldCell, forCellReuseIdentifier: "CustomTableViewCell")
     }
     
+    /*In this function, I have determined the information that I will transfer to the detail page.*/
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let normalPrice = viewModel.coins?.data?.coins?[indexPath.row].price ?? ""
         let editedPrice = normalPrice.editPrice(givenPrice: normalPrice)
@@ -67,6 +70,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         performSegue(withIdentifier: "toDetailViewController", sender: nil)
     }
     
+    /*I created this function to move to the detail page and transfer the datas.*/
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetailViewController" {
             let detailVC = segue.destination as? DetailViewController

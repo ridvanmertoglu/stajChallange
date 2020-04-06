@@ -1,11 +1,3 @@
-//
-//  CoinViewModel.swift
-//  StajChallange
-//
-//  Created by RIDVAN on 4.04.2020.
-//  Copyright © 2020 ridvanmertoglu. All rights reserved.
-//
-
 import Foundation
 
 struct CoinViewModelState {
@@ -20,6 +12,7 @@ final class CoinViewModel: StatefulViewModel<CoinViewModelState.Change> {
     
     var coins: Response?
     
+    /*I wrote this function to connect api and  decode the datas from api to my model.*/
     func fetchCoinResults() {
         let path = "https://api.coinranking.com/v1/public/coins"
         var request = URLRequest(path: path)

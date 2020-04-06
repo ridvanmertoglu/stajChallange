@@ -1,5 +1,6 @@
 import UIKit
 
+/* I created this extension to convert hexadecimal string to UIColor. */
 extension UIColor {
     
     func hexStringToUIColor (hex:String) -> UIColor {
