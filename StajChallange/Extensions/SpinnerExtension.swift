@@ -1,11 +1,3 @@
-//
-//  ActivityIndicatorExtension.swift
-//  StajChallange
-//
-//  Created by RIDVAN on 5.04.2020.
-//  Copyright © 2020 ridvanmertoglu. All rights reserved.
-//
-
 import UIKit
 
 fileprivate var activityView : UIView?

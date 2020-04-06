@@ -1,13 +1,4 @@
-//
-//  Coin.swift
-//  StajChallange
-//
-//  Created by RIDVAN on 4.04.2020.
-//  Copyright © 2020 ridvanmertoglu. All rights reserved.
-//
-
 import Foundation
-
 
 final class Response: Decodable {
     var status: String?
@@ -25,4 +16,5 @@ final class Coin: Decodable {
     var symbol: String?
     var description: String?
     var price: String?
+    var history: [String]?
 }

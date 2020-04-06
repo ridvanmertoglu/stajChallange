@@ -1,13 +1,4 @@
-//
-//  UIColorExtension.swift
-//  StajChallange
-//
-//  Created by RIDVAN on 4.04.2020.
-//  Copyright © 2020 ridvanmertoglu. All rights reserved.
-//
-
 import UIKit
-import Foundation
 
 extension UIColor {
     

@@ -16,39 +16,36 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuN-kM-HEw">
-                        <rect key="frame" x="133" y="7" width="42" height="46"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIH-ll-0MI">
-                        <rect key="frame" x="268" y="7" width="42" height="46"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TWV-xe-OS4">
-                        <rect key="frame" x="8" y="17" width="41" height="41"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nBn-xv-3TV">
+                        <rect key="frame" x="12" y="8" width="45" height="44"/>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DjU-xC-6M1">
+                        <rect key="frame" x="230" y="19" width="74" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o88-7s-ywd">
+                        <rect key="frame" x="74" y="19" width="58" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="TWV-xe-OS4" secondAttribute="bottom" constant="2" id="7wG-fB-G4t"/>
-                    <constraint firstItem="NuN-kM-HEw" firstAttribute="leading" secondItem="TWV-xe-OS4" secondAttribute="trailing" constant="27" id="UZQ-ZP-aj2"/>
-                    <constraint firstAttribute="bottom" secondItem="TWV-xe-OS4" secondAttribute="bottom" constant="2" id="c4o-m6-jbb"/>
-                    <constraint firstItem="wIH-ll-0MI" firstAttribute="leading" secondItem="NuN-kM-HEw" secondAttribute="trailing" constant="150" id="gB2-70-L8u"/>
-                    <constraint firstItem="TWV-xe-OS4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="lnz-r1-KGO"/>
-                    <constraint firstItem="TWV-xe-OS4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="23" id="pfF-s7-n9P"/>
-                    <constraint firstItem="TWV-xe-OS4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="z23-aS-Cur"/>
+                    <constraint firstAttribute="bottom" secondItem="nBn-xv-3TV" secondAttribute="bottom" constant="8" id="Z9e-Hf-gkt"/>
+                    <constraint firstItem="nBn-xv-3TV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="ZMM-xn-0Hz"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="customCellImage" destination="TWV-xe-OS4" id="gv2-sa-3H6"/>
-                <outlet property="customCellNameLabel" destination="NuN-kM-HEw" id="f8S-JJ-dTL"/>
-                <outlet property="customCellPriceLabel" destination="wIH-ll-0MI" id="0Ck-1g-Fgs"/>
+                <outlet property="customCellImage" destination="nBn-xv-3TV" id="Gxf-mo-I9n"/>
+                <outlet property="customCellPriceLabel" destination="DjU-xC-6M1" id="z7i-px-aGm"/>
+                <outlet property="customCellSymbolLabel" destination="o88-7s-ywd" id="7vT-Md-iEP"/>
             </connections>
-            <point key="canvasLocation" x="-62.318840579710148" y="109.82142857142857"/>
+            <point key="canvasLocation" x="-168.11594202898553" y="48.883928571428569"/>
         </tableViewCell>
     </objects>
 </document>
